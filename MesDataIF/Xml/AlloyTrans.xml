@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MESIFDataSet xmlns="http://www.pzhsteel.com.cn/MESIFDataSet.xsd">
+  <AlloyTrans>
+    <cinventoryid>P031213</cinventoryid>
+    <invcode>9999</invcode>
+    <invname>dddd</invname>
+    <invspec>ffff</invspec>
+    <invtype>hhhh1</invtype>
+    <dbilldate>2009-02-17 08:24:33</dbilldate>
+    <coutwarehouseid>2444</coutwarehouseid>
+    <cinwarehouseid>aaa</cinwarehouseid>
+    <nnum>12.9</nnum>
+    <nassistnum>24</nassistnum>
+    <vproductbatchcode>afd</vproductbatchcode>
+    <zdy1>a</zdy1>
+    <zdy2>b</zdy2>
+    <zdy3>c</zdy3>
+    <zdy4>d</zdy4>
+    <zdy5>e</zdy5>
+    <zyx1>f</zyx1>
+    <zyx2>g</zyx2>
+    <zyx3>h</zyx3>
+    <zyx4>i</zyx4>
+    <zyx5>j</zyx5>
+    <pk_corp>gggg</pk_corp>
+  </AlloyTrans>
+  <AlloyTrans>
+    <cinventoryid>P023322</cinventoryid>
+    <invcode>8888</invcode>
+    <invname>aaaa</invname>
+    <invspec>gggg</invspec>
+    <invtype>hhhh2</invtype>
+    <dbilldate>2009-02-18 17:44:33</dbilldate>
+    <coutwarehouseid>2333</coutwarehouseid>
+    <cinwarehouseid>aaa</cinwarehouseid>
+    <nnum>18.4</nnum>
+    <nassistnum>2</nassistnum>
+    <vproductbatchcode>dfdf</vproductbatchcode>
+    <pk_corp>ffff</pk_corp>
+  </AlloyTrans>
+</MESIFDataSet>

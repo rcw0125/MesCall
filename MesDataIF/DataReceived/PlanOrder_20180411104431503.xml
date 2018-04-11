@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<MESIFDataSet>
+  <PlanOrder>
+    <guid>999999</guid>
+    <test>999999</test>
+    <jhddh>P0747777321</jhddh>
+    <xsddh>XS0093213</xsddh>
+    <wlbmid>34</wlbmid>
+    <wlbm>34</wlbm>
+    <wlmc>43</wlmc>
+    <fjldwid>34</fjldwid>
+    <xqsl>34</xqsl>
+    <jhrq>fdsaf</jhrq>
+    <pk_invbasdoc>销售合同</pk_invbasdoc>
+    <pk_produce>生产合同</pk_produce>
+    <invcode>P9999</invcode>
+    <invname>Abcd</invname>
+    <invspec>KKK</invspec>
+    <invtype>FF</invtype>
+    <scbmid>GG</scbmid>
+    <scbmbm>HH</scbmbm>
+    <gzzxid>MM</gzzxid>
+    <gzzxbm>KKK</gzzxbm>
+    <ztshow>IKD123</ztshow>
+    <ddlx>dsfdsa</ddlx>
+    <ksid>mm</ksid>
+    <sfjj>dd</sfjj>
+    <jldwid>gg</jldwid>
+    <jldwmc>hh</jldwmc>
+    <fjlid>dfds</fjlid>
+    <jhwgsl>12.3</jhwgsl>
+    <jhxxsl>16.8</jhxxsl>
+    <fjhsl>22</fjhsl>
+    <jhksrq>fdsfsa</jhksrq>
+    <xdrq>2009-02-19 11:22:33</xdrq>
+    <xqrq>2009-02-19 11:22:33</xqrq>
+    <zdy1>fdsaf</zdy1>
+    <zdy2>fdsaf</zdy2>
+    <zdy3>fdsaf</zdy3>
+    <zdy4>dsdd</zdy4>
+    <zdy5>fff</zdy5>
+    <zyx1>adfds</zyx1>
+    <zyx2>fdsfdsa</zyx2>
+    <zyx3>fdsafdsa</zyx3>
+    <zyx4>fdsafdsa</zyx4>
+    <zyx5>fdsfdsa</zyx5>
+    <pk_corp>safff</pk_corp>
+    <gcbm>asdff</gcbm>
+    <pk_poid>dffff</pk_poid>
+  </PlanOrder>
+</MESIFDataSet>

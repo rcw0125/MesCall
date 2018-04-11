@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MESIFDataSet xmlns="http://www.pzhsteel.com.cn/MESIFDataSet.xsd">
+  <BulkPurchase>
+    <vbillcode>dsffdsf</vbillcode>
+    <cwarehouseid>dsfdsf</cwarehouseid>
+    <cinventoryid>fdsfdsfdsa</cinventoryid>
+    <invcode>dsfdsaf</invcode>
+    <invname>rewr</invname>
+    <invspec>rewr</invspec>
+    <invtype>ewrrewq</invtype>
+    <dbilldate>2008-12-29 19:22:32</dbilldate>
+    <ninnum>16.5</ninnum>
+    <nassistinnum>12</nassistinnum>
+    <zdy1>hhfdhfds</zdy1>
+    <zdy2>hfdhfdsh</zdy2>
+    <zdy3>fdsgfdsg</zdy3>
+    <zdy4>jhgh</zdy4>
+    <zdy5>fdgfds</zdy5>
+    <zyx1>jgfhgf</zyx1>
+    <zyx2>jgfhj</zyx2>
+    <zyx3>gfh</zyx3>
+    <zyx4>gfhgfh</zyx4>
+    <zyx5>hgfh</zyx5>
+    <pk_corp>hfd</pk_corp>
+  </BulkPurchase>
+</MESIFDataSet>

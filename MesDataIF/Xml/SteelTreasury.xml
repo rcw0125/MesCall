@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MESIFDataSet xmlns="http://www.pzhsteel.com.cn/MESIFDataSet.xsd">
+  <SteelTreasury>
+    <cinventoryid>P090943214</cinventoryid>
+    <invcode>SX12321</invcode>
+    <invname>钢坯</invname>
+    <invspec>dsfasdfsa</invspec>
+    <invtype>GGG</invtype>
+    <dbilldate>2009-02-19 29:23:44</dbilldate>
+    <coutwarehouseid>GGG</coutwarehouseid>
+    <cinwarehouseid>FFF</cinwarehouseid>
+    <nnum>19.7</nnum>
+    <nassistnum>213</nassistnum>
+    <zdy1>LLL</zdy1>
+    <zdy2>MMM</zdy2>
+    <zdy3>DDD</zdy3>
+    <zdy4>KKK</zdy4>
+    <zdy5>MM</zdy5>
+    <zxy1>DD</zxy1>
+    <zxy2>SS</zxy2>
+    <zxy3>DD</zxy3>
+    <zxy4>SDS</zxy4>
+    <zxy5>DSD</zxy5>
+    <pk_corp>DSDS</pk_corp>
+  </SteelTreasury>
+</MESIFDataSet>

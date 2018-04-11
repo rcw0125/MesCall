@@ -1,0 +1,89 @@
+<?xml version="1.0" standalone="yes"?>
+<MESIFDataSet xmlns="http://www.pzhsteel.com.cn/MESIFDataSet.xsd">
+  <AllNCData>
+    <vbillcode>TR0903170004</vbillcode>
+    <cwarehouseid>1006AA100000000E8U7E</cwarehouseid>
+    <cinventoryid>0001NC10000000003M1F</cinventoryid>
+    <cbaseid>CHDA0000000000009373</cbaseid>
+    <invcode>12103</invcode>
+    <invname>硅铝铁</invname>
+    <invspec />
+    <invtype />
+    <dbizdate>2009-03-17</dbizdate>
+    <ninnum>20.000000</ninnum>
+    <ninassistnum />
+    <noutnum />
+    <noutassistnum />
+    <cotherwhid>CKDA0000000000000008</cotherwhid>
+    <vuserdef1 />
+    <vuserdef2 />
+    <vuserdef3 />
+    <vuserdef4 />
+    <vuserdef5 />
+    <vuserdef6 />
+    <vuserdef7 />
+    <vuserdef8 />
+    <vuserdef9 />
+    <vuserdef10 />
+    <vuserdef11 />
+    <vuserdef12 />
+    <vuserdef13 />
+    <vuserdef14 />
+    <vuserdef15 />
+    <vuserdef16 />
+    <vuserdef17 />
+    <vuserdef18 />
+    <vuserdef19 />
+    <vuserdef20 />
+    <vfree1 />
+    <vfree2 />
+    <vfree3 />
+    <vfree4 />
+    <vfree5 />
+    <pk_corp>1001</pk_corp>
+    <vbatchcode>090131001</vbatchcode>
+  </AllNCData>
+  <AllNCData>
+    <vbillcode>TR0903170004</vbillcode>
+    <cwarehouseid>1006AA100000000E8U7E</cwarehouseid>
+    <cinventoryid>0001NC10000000003LZR</cinventoryid>
+    <cbaseid>CHDA0000000000009371</cbaseid>
+    <invcode>12101</invcode>
+    <invname>硅锰</invname>
+    <invspec />
+    <invtype />
+    <dbizdate>2009-03-17</dbizdate>
+    <ninnum>20.000000</ninnum>
+    <ninassistnum />
+    <noutnum />
+    <noutassistnum />
+    <cotherwhid>CKDA0000000000000008</cotherwhid>
+    <vuserdef1 />
+    <vuserdef2 />
+    <vuserdef3 />
+    <vuserdef4 />
+    <vuserdef5 />
+    <vuserdef6 />
+    <vuserdef7 />
+    <vuserdef8 />
+    <vuserdef9 />
+    <vuserdef10 />
+    <vuserdef11 />
+    <vuserdef12 />
+    <vuserdef13 />
+    <vuserdef14 />
+    <vuserdef15 />
+    <vuserdef16 />
+    <vuserdef17 />
+    <vuserdef18 />
+    <vuserdef19 />
+    <vuserdef20 />
+    <vfree1 />
+    <vfree2 />
+    <vfree3 />
+    <vfree4 />
+    <vfree5 />
+    <pk_corp>1001</pk_corp>
+    <vbatchcode>090212002</vbatchcode>
+  </AllNCData>
+</MESIFDataSet>

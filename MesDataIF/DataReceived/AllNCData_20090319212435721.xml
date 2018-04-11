@@ -1,0 +1,132 @@
+<?xml version="1.0" standalone="yes"?>
+<MESIFDataSet xmlns="http://www.pzhsteel.com.cn/MESIFDataSet.xsd">
+  <AllNCData>
+    <vbillcode>TR0903190003</vbillcode>
+    <cwarehouseid>1006AA100000000E8U7E</cwarehouseid>
+    <cinventoryid>0001NC10000000003LZ4</cinventoryid>
+    <cbaseid>CHDA0000000000009385</cbaseid>
+    <invcode>12126</invcode>
+    <invname>中碳锰铁</invname>
+    <invspec />
+    <invtype />
+    <dbizdate>2009-03-19</dbizdate>
+    <ninnum>10.000000</ninnum>
+    <ninassistnum />
+    <noutnum />
+    <noutassistnum />
+    <cotherwhid>CKDA0000000000000008</cotherwhid>
+    <vuserdef1 />
+    <vuserdef2 />
+    <vuserdef3 />
+    <vuserdef4 />
+    <vuserdef5 />
+    <vuserdef6 />
+    <vuserdef7 />
+    <vuserdef8 />
+    <vuserdef9 />
+    <vuserdef10 />
+    <vuserdef11 />
+    <vuserdef12 />
+    <vuserdef13 />
+    <vuserdef14 />
+    <vuserdef15 />
+    <vuserdef16 />
+    <vuserdef17 />
+    <vuserdef18 />
+    <vuserdef19 />
+    <vuserdef20 />
+    <vfree1 />
+    <vfree2 />
+    <vfree3 />
+    <vfree4 />
+    <vfree5 />
+    <pk_corp>1001</pk_corp>
+    <vbatchcode>090215001</vbatchcode>
+  </AllNCData>
+  <AllNCData>
+    <vbillcode>TR0903190003</vbillcode>
+    <cwarehouseid>1006AA100000000E8U7E</cwarehouseid>
+    <cinventoryid>0001NC10000000003M0B</cinventoryid>
+    <cbaseid>CHDA0000000000009389</cbaseid>
+    <invcode>12142</invcode>
+    <invname>铝块</invname>
+    <invspec />
+    <invtype />
+    <dbizdate>2009-03-19</dbizdate>
+    <ninnum>10.000000</ninnum>
+    <ninassistnum />
+    <noutnum />
+    <noutassistnum />
+    <cotherwhid>CKDA0000000000000008</cotherwhid>
+    <vuserdef1 />
+    <vuserdef2 />
+    <vuserdef3 />
+    <vuserdef4 />
+    <vuserdef5 />
+    <vuserdef6 />
+    <vuserdef7 />
+    <vuserdef8 />
+    <vuserdef9 />
+    <vuserdef10 />
+    <vuserdef11 />
+    <vuserdef12 />
+    <vuserdef13 />
+    <vuserdef14 />
+    <vuserdef15 />
+    <vuserdef16 />
+    <vuserdef17 />
+    <vuserdef18 />
+    <vuserdef19 />
+    <vuserdef20 />
+    <vfree1 />
+    <vfree2 />
+    <vfree3 />
+    <vfree4 />
+    <vfree5 />
+    <pk_corp>1001</pk_corp>
+    <vbatchcode>090130001</vbatchcode>
+  </AllNCData>
+  <AllNCData>
+    <vbillcode>TR0903190003</vbillcode>
+    <cwarehouseid>1006AA100000000E8U7E</cwarehouseid>
+    <cinventoryid>0001NC10000000003M1O</cinventoryid>
+    <cbaseid>CHDA0000000000009395</cbaseid>
+    <invcode>12602</invcode>
+    <invname>电极粒</invname>
+    <invspec />
+    <invtype />
+    <dbizdate>2009-03-19</dbizdate>
+    <ninnum>10.000000</ninnum>
+    <ninassistnum />
+    <noutnum />
+    <noutassistnum />
+    <cotherwhid>CKDA0000000000000008</cotherwhid>
+    <vuserdef1 />
+    <vuserdef2 />
+    <vuserdef3 />
+    <vuserdef4 />
+    <vuserdef5 />
+    <vuserdef6 />
+    <vuserdef7 />
+    <vuserdef8 />
+    <vuserdef9 />
+    <vuserdef10 />
+    <vuserdef11 />
+    <vuserdef12 />
+    <vuserdef13 />
+    <vuserdef14 />
+    <vuserdef15 />
+    <vuserdef16 />
+    <vuserdef17 />
+    <vuserdef18 />
+    <vuserdef19 />
+    <vuserdef20 />
+    <vfree1 />
+    <vfree2 />
+    <vfree3 />
+    <vfree4 />
+    <vfree5 />
+    <pk_corp>1001</pk_corp>
+    <vbatchcode>090209001</vbatchcode>
+  </AllNCData>
+</MESIFDataSet>

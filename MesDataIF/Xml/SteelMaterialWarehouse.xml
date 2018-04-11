@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MESIFDataSet xmlns="http://www.pzhsteel.com.cn/MESIFDataSet.xsd">
+  <SteelMaterialWarehouse>
+    <vbillcode>32112</vbillcode>
+    <cwarehouseid>fasf</cwarehouseid>
+    <dbilldate>2009-02-12 08:12:33</dbilldate>
+    <cinventoryid>fdsa</cinventoryid>
+    <invcode>dd</invcode>
+    <invname>ff</invname>
+    <invspec>gg</invspec>
+    <invtype>aa</invtype>
+    <ninnum>21.4</ninnum>
+    <nassistinnum>22</nassistinnum>
+    <zdy1>asdf</zdy1>
+    <zdy2>df</zdy2>
+    <zdy3>ff</zdy3>
+    <zdy4>gg</zdy4>
+    <zdy5>hh</zdy5>
+    <zyx1>jj</zyx1>
+    <zyx2>kk</zyx2>
+    <zyx3>bb</zyx3>
+    <zyx4>vc</zyx4>
+    <zyx5>fd</zyx5>
+    <pk_corp>df</pk_corp>
+  </SteelMaterialWarehouse>
+  <SteelMaterialWarehouse>
+    <vbillcode>P032131</vbillcode>
+    <cwarehouseid>fdsaf</cwarehouseid>
+    <dbilldate>2009-02-12 22:12:33</dbilldate>
+    <cinventoryid>dd</cinventoryid>
+    <invcode>ff</invcode>
+    <invname>mm</invname>
+    <invspec>nn</invspec>
+    <invtype>bb</invtype>
+    <ninnum>23.5</ninnum>
+    <nassistinnum>2</nassistinnum>
+    <zdy1>ff</zdy1>
+    <zdy2>gg</zdy2>
+    <zdy3>hh</zdy3>
+    <zdy4>hh</zdy4>
+    <zdy5>dd</zdy5>
+    <zyx1>xx</zyx1>
+    <zyx2>yy</zyx2>
+    <zyx3>zz</zyx3>
+    <zyx4>mm</zyx4>
+    <zyx5>ll</zyx5>
+    <pk_corp>kk</pk_corp>
+  </SteelMaterialWarehouse>
+</MESIFDataSet>
