@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="NCCaller.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Account" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Administrator</Value>
+    </Setting>
+    <Setting Name="Password" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="NCServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://192.168.2.68:80/service/XChangeServlet?account=1&amp;receiver=101 </Value>
+    </Setting>
+    <Setting Name="MESServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">192.168.36.157:1089</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
