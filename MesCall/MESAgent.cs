@@ -71,6 +71,80 @@
             this.m_Session.Close();
             return 0;
         }
+        /// <summary>
+        /// 使用session执行sql命令（update，insert）
+        /// 返回0则成功，其他为错误代码
+        /// </summary>
+        /// <param name="sql"></param>
+        /// <returns></returns>
+        public string exeSql(string sql)
+        {
+            try
+            {
+                int num = this.m_Session.Open();
+                if (num != 0)
+                {
+                    return num.ToString();
+                }
+                Command cmd = null;
+                //创建sql命令
+                int result = m_Session.CreateCommand(14, sql, "", ref cmd);
+                if (result == 0)
+                {
+                    //使用session执行sql命令
+                    return m_Session.Execute(cmd).ToString();
+
+                }
+                else
+                {
+                    return result.ToString();
+                }
+            }
+            catch(Exception ex)
+            {
+                return ex.ToString();
+            }
+
+           
+         
+        }
+        /// <summary>
+        /// 获取objurl（表/主键）路径下某项的值
+        /// </summary>
+        /// <param name="objUrl"></param>
+        /// <param name="item"></param>
+        /// <returns></returns>
+        public object getValue(string objUrl, string item)
+        {
+            try
+            {
+                object Obj = new object();
+                if (!m_Session.Opened)
+                {
+                    int num = this.m_Session.Open();
+                    if (num != 0)
+                    {
+                        return "错误" + num;
+                    }
+                }
+                int i = m_Session.Get(objUrl, item, ref Obj);
+                if (i == 0)
+                {
+                    return Obj;
+                }
+                else
+                {
+                    return "错误" + i;
+                }
+            }
+            catch (Exception ex)
+            {
+                return "错误"+ex.ToString();
+            }
+
+
+          
+        }
     }
 }
 
