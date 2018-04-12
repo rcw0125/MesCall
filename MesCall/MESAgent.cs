@@ -19,7 +19,12 @@
             this.m_Session.User = str2;
             this.m_Session.Password = str3;
         }
-
+        /// <summary>
+        /// 将DataTable添加到L3DataSet，将数据发送到服务器指定方法
+        /// </summary>
+        /// <param name="type"></param>
+        /// <param name="tb"></param>
+        /// <returns></returns>
         public int SendToMES(string type, DataTable tb)
         {
             MESIFDataConfigSection webApplicationSection = WebConfigurationManager.GetWebApplicationSection("MESIFDataConfigSection") as MESIFDataConfigSection;
@@ -53,6 +58,8 @@
             {
                 return -3;
             }
+
+            //L3DataSet
             DataSet set = new DataSet("L3DataSet");
             DataTable table = tb.Clone();
             table.Merge(tb);
@@ -71,6 +78,74 @@
             this.m_Session.Close();
             return 0;
         }
+
+
+        /// <summary>
+        /// 从MES服务器返回一个表数据
+        /// </summary>
+        /// <param name="type">要调用的方法类型</param>
+        /// <returns></returns>
+        public int acceptFromMES(string type)
+        {
+            MESIFDataConfigSection webApplicationSection = WebConfigurationManager.GetWebApplicationSection("MESIFDataConfigSection") as MESIFDataConfigSection;
+            if (webApplicationSection == null)
+            {
+                return -1;
+            }
+            MESIFDataConfigElement element = webApplicationSection.MESIFDatas[type];
+            if (element == null)
+            {
+                return -2;
+            }
+            string str = element.Target.Trim();
+            string target = element.Method.Trim();
+            if (((str == null) || (target == null)) || ((str.Length < 1) || (target.Length < 1)))
+            {
+                return -3;
+            }
+            int num = this.m_Session.Open();
+            if (num != 0)
+            {
+                return num;
+            }
+            Command cmd = null;
+            num = this.m_Session.CreateCommand(5, str, target, ref cmd);
+            if (num != 0)
+            {
+                return num;
+            }
+            if (cmd.ParameterCount != 1)
+            {
+                return -3;
+            }
+
+            //L3DataSet
+            //DataSet set = new DataSet("L3DataSet");
+            //DataTable table = tb.Clone();
+            //table.Merge(tb);
+            //table.TableName = "L3DataTable";
+            //set.Tables.Add(table);
+            //cmd.set_Parameters(0, set);
+            num = this.m_Session.Execute(cmd);
+            if (num != 0)
+            {
+                return num;
+            }
+
+            DataSet ds = cmd.Return as DataSet;
+            if (ds.Tables.Count > 0 && ds != null && ds.Tables[0].Rows.Count > 0)
+            {
+                L3Datatable = ds.Tables[0].Clone();
+                L3Datatable.Merge(ds.Tables[0]);
+                
+            }
+          
+            this.m_Session.Close();
+            return 0;
+        }
+
+        public DataTable L3Datatable;
+
         /// <summary>
         /// 使用session执行sql命令（update，insert）
         /// 返回0则成功，其他为错误代码
