@@ -13,7 +13,7 @@
 
             <br />
             类型：<asp:TextBox ID="txtType" runat="server"></asp:TextBox>
-            &nbsp;&nbsp;&nbsp; PlanOrder&nbsp;&nbsp; AlloyElement&nbsp;&nbsp; AllNCData<br />
+            &nbsp;&nbsp;&nbsp; PlanOrder&nbsp;&nbsp;PlanUpdate&nbsp; AlloyElement&nbsp;&nbsp; AllNCData<br />
             <br />
             上传的xml：<asp:FileUpload ID="uploadXML" runat="server" />
             <br />

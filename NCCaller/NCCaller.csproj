@@ -58,13 +58,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AppSvrHMI, Version=1.0.3293.22707, Culture=neutral, PublicKeyToken=76c0451e59d347dd, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\L3\AppServer\AppSvrHMI.dll</HintPath>
+    <Reference Include="AppSvrHMI">
+      <HintPath>..\MesCall\include\AppSvrHMI.dll</HintPath>
     </Reference>
-    <Reference Include="AppSvrIF, Version=0.0.0.0, Culture=neutral, PublicKeyToken=2e87e3c4ca6668f1, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files\L3\AppServer\AppSvrIF.dll</HintPath>
+    <Reference Include="AppSvrIF">
+      <HintPath>..\MesCall\include\AppSvrIF.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualC" />
     <Reference Include="System" />
