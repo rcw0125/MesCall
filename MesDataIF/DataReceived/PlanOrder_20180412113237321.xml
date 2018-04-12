@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="yes"?>
+<MESIFDataSet>
+  <PlanOrder>
+    <planid>18S63010673</planid>
+    <status>10</status>
+    <planner>16988</planner>
+    <PreHeatID>18S63010672</PreHeatID>
+    <Pre_SteelGradeIndex>F0204000</Pre_SteelGradeIndex>
+    <Pre_SteelGrade>SAE1008</Pre_SteelGrade>
+    <Aim_Tapped_Weight>46</Aim_Tapped_Weight>
+    <CasterID>S63</CasterID>
+    <BOFID>S21</BOFID>
+    <LFID>0</LFID>
+    <RHID>0</RHID>
+    <BOF_Status>01</BOF_Status>
+    <LF_Status>01</LF_Status>
+    <RH_Status>01</RH_Status>
+    <Caster_Status>01</Caster_Status>
+    <Side_Status>01</Side_Status>
+    <HeatID>211800002</HeatID>
+    <Casting_No />
+    <Casting_Heat_Cnt>0</Casting_Heat_Cnt>
+    <Aim_Time_IronPrepared>2016/10/6 15:40:45</Aim_Time_IronPrepared>
+    <Aim_Time_BOFStart>2016/10/6 15:40:45</Aim_Time_BOFStart>
+    <Aim_Time_BOFTapped>2016/10/6 15:40:45</Aim_Time_BOFTapped>
+    <Aim_Time_TappedSideEnd>2016/10/6 15:40:45</Aim_Time_TappedSideEnd>
+    <Aim_Time_LFArrival>2016/10/6 15:40:45</Aim_Time_LFArrival>
+    <Aim_Time_LFStart>2016/10/6 15:40:45</Aim_Time_LFStart>
+    <Aim_Time_LFEnd>2016/10/6 15:40:45</Aim_Time_LFEnd>
+    <Aim_Time_LFLeave>2016/10/6 15:40:45</Aim_Time_LFLeave>
+    <Aim_Time_RHArrival>2016/10/6 15:40:45</Aim_Time_RHArrival>
+    <Aim_Time_RHStart>2016/10/6 15:40:45</Aim_Time_RHStart>
+    <Aim_Time_RHEnd>2016/10/6 15:40:45</Aim_Time_RHEnd>
+    <Aim_Time_RHLeave>2016/10/6 15:40:45</Aim_Time_RHLeave>
+    <Aim_Time_CasterArrival>2016/10/6 15:40:45</Aim_Time_CasterArrival>
+    <Aim_Time_CastingStart>2016/10/6 15:40:45</Aim_Time_CastingStart>
+    <Aim_Time_CastingEnd>2016/10/6 15:40:45</Aim_Time_CastingEnd>
+    <Fir_Heat_Flag>0</Fir_Heat_Flag>
+    <Div_HeatID />
+    <TeamID>2</TeamID>
+    <ShiftID>2</ShiftID>
+    <SteelGradeIndex>F0204000</SteelGradeIndex>
+    <steelgrade />
+    <Plan_Ord_ID>POjyu16092900000430</Plan_Ord_ID>
+    <Hot_Send_Flag>0</Hot_Send_Flag>
+    <Steel_Return_Flag>0</Steel_Return_Flag>
+    <Steel_Back_Flag>0</Steel_Back_Flag>
+    <Treat_Seq>1608475</Treat_Seq>
+    <Destitation />
+    <New_BOF_Flag>0</New_BOF_Flag>
+    <Refine_Type>0</Refine_Type>
+    <Length>10900</Length>
+    <Width>160</Width>
+    <Thickness>160</Thickness>
+  </PlanOrder>
+</MESIFDataSet>

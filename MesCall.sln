@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MesCall", "MesCall\MesCall.
 EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MesDataIF", "MesDataIF\", "{0716D30B-FD6E-4394-85AD-5700A44126E1}"
 	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv2.0"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_64916"
 		Debug.AspNetCompiler.PhysicalPath = "MesDataIF\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_64916\"
